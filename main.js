@@ -49,7 +49,7 @@ const spaceTexture = new  THREE.TextureLoader().load('space.jpg')
 scene.background=spaceTexture;
 
 //avtar 
-const jaydeepTexture = new THREE.TextureLoader().load('jaydeep.jpeg')
+const jaydeepTexture = new THREE.TextureLoader().load('./jaydeep.jpeg')
 const jaydeep = new THREE.Mesh(
   new THREE.BoxGeometry(3,3,3),
   new THREE.MeshBasicMaterial({map:jaydeepTexture})
